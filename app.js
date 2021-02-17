@@ -7,6 +7,7 @@ const mysql = require('mysql');
 
 // haven't created any credentials for the database yet
 // this is just to get a boilerplate set up
+// we might want a connection pool rather than 1 connection further down the line
 const connection = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
