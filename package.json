@@ -1,0 +1,27 @@
+{
+  "name": "codemmunity_backend",
+  "version": "1.0.0",
+  "description": "Backend for the official Codemmunity website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit0110/Codemmunity_Backend.git"
+  },
+  "keywords": [
+    "Codemmunity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit0110/Codemmunity_Backend/issues"
+  },
+  "homepage": "https://github.com/rohit0110/Codemmunity_Backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
