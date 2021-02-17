@@ -16,7 +16,9 @@ app.get('/', (req, res) => {
 });
 
 const init = async () => {
-  await db.sequelize.sync();
+  await db.sequelize.sync().catch((err) => {
+      console.error(err);
+  });
   app.listen(PORT, () => {
     console.log(`App listening at http://localhost:${PORT}`);
   });
