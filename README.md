@@ -1,2 +1,2 @@
-# Codemmunity_Backend
-Backend for the codemmunity project
+# Setup
+This branch contains the basic boilerplate for an ExpressJs/NodeJs environment. Navigate to this branch, and then pull the most recent code. Then run `npm install` to install all of the dependencies. After than, you can run `node app.js` to start the server. 
