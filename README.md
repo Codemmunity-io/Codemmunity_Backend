@@ -1,5 +1,5 @@
-# Codemmunity Backend 
 <img src="./CodemmunityLogo.png"/>
+# Codemmunity Backend 
 //TODO maybe a quick description of the project?
 ## Table of contents
 - <a href="#quick-start">Quick start</a>
