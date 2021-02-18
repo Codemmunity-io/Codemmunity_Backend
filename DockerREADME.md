@@ -59,11 +59,12 @@ _Ensure your environment variables are set in your .env file_
 __To start MYSQL Container with docker-compose:__
 ```bash
 cd docker
-docker-compose up -d
+docker-compose --env-file ../.env up -d
 ```
 
-```docker-compose up``` - start the docker compose services
+```docker-compose [..] up``` - start the docker compose services
 
+```--env-file ../.env``` - use the environment variables from our .env file in the root directory
 
 ```-d``` - detatch, run in the background
 
