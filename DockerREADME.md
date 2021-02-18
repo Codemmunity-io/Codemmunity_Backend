@@ -72,7 +72,7 @@ docker-compose --env-file ../.env up -d
 
 __To stop MYSQL Container:__
 ```bash
-docker-compose down
+docker-compose --env-file ../.env down
 ```
 
 
