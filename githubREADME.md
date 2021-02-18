@@ -57,8 +57,19 @@ git push
 ```
 
 The first time you push a branch you will see an error with a command suggestion
+```
+fatal: The current branch github_docs has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
-copy and run it
+    git push --set-upstream origin <branch name>
+```
+
+Copy the command and run it
+
+To change back to the main branch run:
+```bash
+git checkout main
+```
 
 
 ### Forgot to make a new branch before making changes?
