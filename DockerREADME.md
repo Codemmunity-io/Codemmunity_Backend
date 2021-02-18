@@ -47,3 +47,31 @@ __To remove a container run:__
 ```bash
 docker container rm <First 2 or more characters of the containerID>
 ```
+
+
+
+# Docker-Compose
+
+___Get Docker Compose [here](https://docs.docker.com/compose/install/)___
+
+_Ensure your environment variables are set in your .env file_
+
+__To start MYSQL Container with docker-compose:__
+```bash
+cd docker
+docker-compose up -d
+```
+
+```docker-compose up``` - start the docker compose services
+
+
+```-d``` - detatch, run in the background
+
+<br/>
+
+__To stop MYSQL Container:__
+```bash
+docker-compose down
+```
+
+
