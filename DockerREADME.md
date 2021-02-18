@@ -76,3 +76,17 @@ docker-compose --env-file ../.env down
 ```
 
 
+
+
+# Issues
+
+```
+WARNING: The {VarName} variable is not set. Defaulting to a blank string.
+```
+If you see an error like this 
+
+Your .env file is not configured properly. Please make sure it matches the format in .env.example
+
+_Or_
+
+The path to your .env file is incorrect, ensure the .env file is in the project root directory, and you're running docker-compose from within docker folder.
