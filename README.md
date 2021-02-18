@@ -1,4 +1,5 @@
 <img src="./CodemmunityLogo.png"/>
+
 # Codemmunity Backend 
 //TODO maybe a quick description of the project?
 ## Table of contents
