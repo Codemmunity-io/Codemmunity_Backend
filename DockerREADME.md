@@ -1,6 +1,7 @@
 # Docker
-##### Get Docker [here](https://docs.docker.com/get-docker/)
-To build the image with Docker run:
+___Get Docker [here](https://docs.docker.com/get-docker/)___
+
+__To build the image with Docker run:__
 ```bash
 docker build  -t codemmunity_backend/codemmunity_backend .
 ```
@@ -14,7 +15,7 @@ This will build it using environment variables in the .env file
 
 <br/>
 
-To run the Docker Image:
+__To run the Docker Image:__
 ```bash
 docker run -p 8080:8080  -t codemmunity/codemmunity_backend -d
 ```
@@ -29,20 +30,20 @@ docker run -p 8080:8080  -t codemmunity/codemmunity_backend -d
 
 <br/>
 
-To see your running docker containers run:
+__To see your running docker containers run:__
 ```bash
 docker ps
 ```
 
 <br/> 
 
-To stop a container run:
+__To stop a container run:__
 ```bash
-docker container stop <2 or more characters of the containerID>
+docker container stop <First 2 or more characters of the containerID>
 ```
 <br/>
 
-To remove a container run:
+__To remove a container run:__
 ```bash
-docker container rm <2 or more characters of the containerID>
+docker container rm <First 2 or more characters of the containerID>
 ```
