@@ -1,12 +1,14 @@
 <img src="./CodemmunityLogo.png"/>
 
 # Codemmunity Backend 
-//TODO maybe a quick description of the project?
+This is the backend repository for the codemmunity website project. Being built with NodeJs Express and a MYSQL Database.
+
 ## Table of contents
 - <a href="#quick-start">Quick start</a>
 - <a href="#docker">Docker Basics</a>
 - <a href="#docker-compose">docker-compose</a>
 - <a href="#getting-started-with-collaboration-on-github">Github Basics</a>
+- <a href="#discord-link">Discord Link</a>
 
 ## Quick start
 
@@ -199,3 +201,7 @@ Then to get your changes back run:
 ```bash
 git stash pop
 ```
+
+
+### Discord Link
+[Codemmunity Discord](https://discord.gg/zweA2P4)
