@@ -203,5 +203,5 @@ git stash pop
 ```
 
 
-### Discord Link
+## Discord Link
 [Codemmunity Discord](https://discord.gg/zweA2P4)
